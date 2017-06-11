@@ -45,6 +45,9 @@ p {
 .bg-primary {
   background-color: #F05F40;
 }
+.bg-primary a.email {
+  color: white;
+}
 .bg-dark {
   background-color: #222222;
   color: white;
@@ -56,6 +59,9 @@ section {
   padding: 100px 0;
 }
 aside {
+  padding: 50px 0 50px 0;
+}
+footer {
   padding: 50px 0 40px 0;
 }
 .no-padding {
@@ -304,7 +310,7 @@ header .header-content .header-content-inner .btn-default {
   }
 }
 .call-to-action h2 {
-  margin: 0 auto 20px;
+  margin: 0 auto;
 }
 .text-primary {
   color: #F05F40;
