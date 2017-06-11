@@ -62,7 +62,7 @@ aside {
   padding: 50px 0 50px 0;
 }
 footer {
-  padding: 50px 0 40px 0;
+  padding: 50px 0 50px 0;
 }
 .no-padding {
   padding: 0;
@@ -189,6 +189,11 @@ header .header-content .header-content-inner p {
 }
 header .header-content .header-content-inner .btn-default {
   font-weight: 400;
+  margin-top: 12px;
+}
+header .header-content .header-content-inner .btn-primary {
+  margin-top: 12px;
+  margin-left: 6px;
 }
 @media (min-width: 768px) {
   header {
