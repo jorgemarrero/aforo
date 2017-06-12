@@ -59,10 +59,10 @@ section {
   padding: 100px 0;
 }
 aside {
-  padding: 50px 0 50px 0;
+  padding: 50px 0;
 }
 footer {
-  padding: 50px 0 50px 0;
+  padding: 50px 0;
 }
 .no-padding {
   padding: 0;
@@ -221,10 +221,10 @@ header .header-content .header-content-inner .btn-primary {
     margin-left: auto;
     margin-right: auto;
   }
-  header .header-content .btn-contact-big {
+  header .header-content .header-content-inner .btn-contact-big {
     visibility: visible;
   }
-  header .header-content .btn-contact-small {
+  header .header-content .header-content-inner .btn-contact-small {
     visibility: hidden;
     height: 0px;
     width: 0px;
@@ -233,14 +233,10 @@ header .header-content .header-content-inner .btn-primary {
   }
 }
 @media (max-width: 768px) {
-  header .header-content .btn-contact-big {
-    visibility: hidden;
-    height: 0px;
-    width: 0px;
-    padding: 0;
-    margin: 0;
+  header .header-content .header-content-inner .btn-contact-big {
+    display: none;
   }
-  header .header-content .btn-contact-small {
+  header .header-content .header-content-inner .btn-contact-small {
     visibility: visible;
   }
 }
