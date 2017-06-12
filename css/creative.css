@@ -220,11 +220,7 @@ header .header-content .header-content-inner .btn-primary {
     visibility: visible;
   }
   header .header-content .header-content-inner .btn-contact-small {
-    visibility: hidden;
-    height: 0px;
-    width: 0px;
-    padding: 0;
-    margin: 0;
+    display: none;
   }
 }
 @media (max-width: 768px) {
