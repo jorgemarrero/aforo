@@ -11,4 +11,4 @@ Se ha utilizado con lo siguientes:
 
 ## Bugs
 
-No tiene habilitado el protocolo https al añadir el dominio.
+No tiene habilitado el protocolo *https* al añadir el dominio.
